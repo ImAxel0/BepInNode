@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BepInNode", "BepInNode\BepInNode.csproj", "{7C6F29F0-73ED-4E96-B075-0CCF8ADF1222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C6F29F0-73ED-4E96-B075-0CCF8ADF1222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6F29F0-73ED-4E96-B075-0CCF8ADF1222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6F29F0-73ED-4E96-B075-0CCF8ADF1222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6F29F0-73ED-4E96-B075-0CCF8ADF1222}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1614413F-95A3-417A-94B7-FC53611B5217}
+	EndGlobalSection
+EndGlobal
