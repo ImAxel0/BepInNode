@@ -34,7 +34,7 @@ public class AboutDialog
             ImGui.SetMouseCursor(ImGuiMouseCursor.Hand);
             if (ImGui.IsMouseClicked(ImGuiMouseButton.Left, false))
             {
-                Process.Start(new ProcessStartInfo("") { UseShellExecute = true });
+                Process.Start(new ProcessStartInfo("https://github.com/ImAxel0/BepInNode") { UseShellExecute = true });
             }
         }        
 
