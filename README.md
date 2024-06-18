@@ -36,6 +36,8 @@ Node connections are exported as `.nodemod` files (xml) and read back by a BepIn
 ## Requirements :warning:
 - [.NET 6.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/6.0#runtime-6.0.15)
 
+![BepInNode screen](https://github.com/ImAxel0/BepInNode/assets/124681710/71f1ae05-c78f-4cbd-8a65-1eaeaa9dda20)
+
 ## Thanks to
 - [BepInEx](https://github.com/BepInEx/BepInEx)
 - [Dear ImGui](https://github.com/ocornut/imgui) & [ImGui.NET](https://github.com/ImGuiNET/ImGui.NET)
