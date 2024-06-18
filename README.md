@@ -20,7 +20,7 @@
  - **Custom events**: alter the node flow and keeps a more tidy editor visual
  - **150+** available nodes exposed from the Unity API
 
-## How it works
+## How it works 🛠️
 Node connections are exported as `.nodemod` files (xml) and read back by a BepInEx mod (BepInNodeLoader) which executes them accordingly.
 
 ## Installation :arrow_down:
