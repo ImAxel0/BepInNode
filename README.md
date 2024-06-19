@@ -7,7 +7,7 @@
 
 | Release | IL2CPP | Mono |
 | ------- | ------ | ---- |
-| BIE 6.X | coming... | ✖️ |
+| BIE 6.X | ✅ [link](https://github.com/ImAxel0/BepInNodeLoader_il2Cpp) | ✖️ |
 | BIE 5.X | ✖️ | ✅ [link](https://github.com/ImAxel0/BepInNodeLoader_Mono) |
 
  ## Features :star:
@@ -29,7 +29,7 @@ Node connections are exported as `.nodemod` files (xml) and read back by a BepIn
 3. Open the app and start making plugins
 
 ## Plugins installation :arrow_double_down:
-1. Install [BepInNodeLoader](https://github.com/ImAxel0/BepInNodeLoader_Mono) as a standard BepInEx plugin
+1. Install **BepInNodeLoader** [Mono](https://github.com/ImAxel0/BepInNodeLoader_Mono) or [il2Cpp](https://github.com/ImAxel0/BepInNodeLoader_il2Cpp) as a standard BepInEx plugin
 2. Place the `.nodemod` file in the `GameFolder/BepInEx/plugins/BepInNodeMods` folder
 > BepInNodeMods folder will be created the first time BepInNodeLoader is run
 
