@@ -23,7 +23,7 @@ public class MenuBar
     "CTRL+D = DUPLICATE NODE\n" +
     "CTRL+LMB+DRAG = CREATE COMMENT\n" +
     "CTRL+MOUSE WHEEL = ZOOM IN/OUT\n" +
-    "F1 = QUICK NODE SELECTOR";
+    "SHIFT+A = QUICK NODE SELECTOR";
 
     public static void Render()
     {
