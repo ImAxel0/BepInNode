@@ -74,7 +74,7 @@ namespace BepInNode.Graph
                 }
             }
 
-            if (ImGui.IsKeyPressed(ImGuiKey.F1, false) && IsEditorHovered && !DraggingOutput && !DraggingNode)
+            if (ImGui.GetIO().KeyShift && (ImGui.IsKeyPressed(ImGuiKey.A, false)) && IsEditorHovered && !DraggingOutput && !DraggingNode)
                 QuickNodeSelector.ToggleSelector();
 
             if (ImGui.IsMouseDown(ImGuiMouseButton.Middle))
