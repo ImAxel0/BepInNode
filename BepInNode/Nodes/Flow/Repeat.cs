@@ -5,13 +5,13 @@ namespace BepInNode.Nodes.Flow;
 
 public class Repeat : Node
 {
-	public int AmountOfTimes
+	public int Amount
 	{
-		get => _amountOfTimes;
-		set => _amountOfTimes = System.Math.Max(value, 0);
+		get => _amount;
+		set => _amount = System.Math.Max(value, 0);
 	}
 
-	private int _amountOfTimes;
+	private int _amount;
 
 	public Repeat()
 	{
@@ -19,9 +19,9 @@ public class Repeat : Node
 		Description = "Repeats logic";
 		NodeType = NodeTypes.Flow;
 		NodeCategory = NodeCategories.Flow;
-		SizeOverride = new(350, 180);
+		SizeOverride = new(230, 150);
 
-		ArgsIn.Add(new ArgIn { Type = typeof(int) });
+		ArgsIn.Add(new ArgIn { Type = typeof(int), ArgName = nameof(Amount) });
 	}
 }
 

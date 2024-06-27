@@ -5,16 +5,17 @@ namespace BepInNode.Nodes.Flow;
 
 public class WaitUntil : Node
 {
-	public bool Boolean { get; set; }
+	public bool Condition { get; set; }
 
 	public WaitUntil()
 	{
 		Name = $"WaitUntil {FontAwesome6.HourglassHalf}";
-		Description = "Waits for Boolean to be true";
+		Description = "Waits for Condition to be true";
 		NodeType = NodeTypes.Flow;
 		NodeCategory = NodeCategories.Flow;
+		SizeOverride = new(200, 150);
 
-		ArgsIn.Add(new ArgIn { Type = typeof(bool) });
+		ArgsIn.Add(new ArgIn { Type = typeof(bool), ArgName = nameof(Condition) });
 	}
 }
 
